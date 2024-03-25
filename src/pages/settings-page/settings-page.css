@@ -1,5 +1,12 @@
-@import '@/assets/variables.css';
+@import url('@/assets/variables.css');
 
+.settings-page-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 98vh;
+}
 
 .settings-page {
   width: 340px;

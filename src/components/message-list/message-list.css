@@ -1,0 +1,10 @@
+@import url('@/assets/variables.css');
+
+.message-list {
+    display: flex;
+    flex-direction: column;
+    padding: 15px; 
+    margin: 0 auto; 
+}
+
+

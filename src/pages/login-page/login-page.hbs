@@ -1,4 +1,5 @@
 {{#> Dialog }}
+<div class="login-page-wrapper">
   <form class="login-page">
     <div class="login-header">   
       <img src="assets/images/lock.png" alt="lock.png">
@@ -6,13 +7,12 @@
     </div>
   
     <main class="login-page-content">
-
-      {{> InputField title="Login" name="login" id="login" type="text"}}
-      {{> InputField className="login-page__input" title="Password" name="password" type="password" id="password" }}
+      {{{ input_login }}}
+      {{{ input_password }}}
     </main>
     <div class="login-page-footer">
-      {{> Button text="Login" page="chat" className="button-primary"}}
-      {{> Button text="Not registered yet?" page="chat" className="button-secondary"}}
+      {{{ button_primary }}} 
+      {{{ button_secondary }}} 
     </div>
   </form>
    <nav class="links">
@@ -20,6 +20,8 @@
     <a onclick="window.navigate('settings')">settings-page</a>
     <a onclick="window.navigate('500-error')">500</a>
     <a onclick="window.navigate('registration')">registration-page</a>
+    <a onclick="window.navigate('chat')">chat-page</a>
   </nav>
+  </div>
 {{/ Dialog }}
 

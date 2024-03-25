@@ -1,0 +1,29 @@
+@import url('@/assets/variables.css');
+
+.input-message-container {
+    display: flex; 
+    align-items: center; 
+    padding: 8px; 
+  }
+  
+  .input-message-container input  {
+    width: 100%;
+    padding: 10px; 
+    border-radius: 20px; 
+    background-color: var(--input-color-grey);
+    font-size: var( --font-size-h1);
+    border: none;
+  }
+  
+  .input-message-container input::placeholder {
+    font-size: var( --font-size-h1);
+  }
+  
+.send-message-btn {
+  background-color: var(--button-bgcolor);
+  border-radius: 50%; 
+  padding: 10px 16px; 
+  margin-left: 8px; 
+  border: none;
+}
+

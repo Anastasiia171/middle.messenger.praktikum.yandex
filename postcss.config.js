@@ -4,6 +4,6 @@ import postcssImport from 'postcss-import';
 export default {
   plugins: [
     autoprefixer,
-    postcssImport
-  ]
+    postcssImport,
+  ],
 };

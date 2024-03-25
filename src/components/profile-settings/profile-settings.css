@@ -1,0 +1,31 @@
+@import url('@/assets/variables.css');
+
+.profile-settings {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+  }
+  
+  .profile-avatar {
+    width: 60px; 
+    height: 60px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+
+  .profile-settings:hover {
+    cursor: pointer;
+  }
+  
+  .settings-btn {
+    background: none; 
+    font-size: 12px; 
+    color: var(--font-color-primary);
+    padding: 8px 16px; 
+    border: none;
+  }
+  
+.settings-btn:hover {
+  text-decoration: underline;
+}
+

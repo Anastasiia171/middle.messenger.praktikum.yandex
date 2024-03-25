@@ -1,0 +1,24 @@
+@import url('@/assets/variables.css');
+
+.input-search-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: var( --input-color-grey);
+    border-radius: 12px;
+    padding: 8px 16px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  
+
+.input-search-container input {
+  width: 100%;
+  background-color: transparent;
+  font-size: var(--font-size-h1);
+  border: none;
+  outline: none; 
+}
+
+

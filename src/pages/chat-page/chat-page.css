@@ -1,8 +1,29 @@
-@import '@/assets/variables.css';
+@import url('@/assets/variables.css');
 
 
 .chat-page {
-  height: 100%;
+  box-sizing: border-box;
+  height: 100vh;
   width: 100%;
+  padding: 20px;
+  display: flex;
+  gap: 60px;
+
 }
+
+  .search-container, .profile-settings {
+    margin-bottom: 16px;
+  }
+
+.message-block {
+  flex-grow:1;
+  display: flex;
+  flex-direction: column;
+}
+
+.messages {
+  flex-grow:1;
+}
+
+
 

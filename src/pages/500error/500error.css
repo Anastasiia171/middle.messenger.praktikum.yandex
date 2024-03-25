@@ -1,4 +1,4 @@
-@import '@/assets/variables.css';
+@import url('@/assets/variables.css');
 
 
 .page500 {
@@ -26,4 +26,6 @@
   text-decoration: underline; 
   margin: 0 10px; 
 }
+
+
 

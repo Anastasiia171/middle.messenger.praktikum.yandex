@@ -1,5 +1,6 @@
 <div class="input-container">
-  <input type="{{type}}" id="{{id}}" name="{{name}}" placeholder=" ">
+  {{{ input }}}
   <label for="{{id}}">{{title}}</label>
+  <span class="incorrect {{#if isError}}show-error{{/if}}">Incorrect {{name}}</span>
 </div>
 

@@ -1,0 +1,21 @@
+@import url('@/assets/variables.css');
+
+.message-user {
+    display: flex;
+    align-items: center; 
+    gap: 10px; 
+}
+  
+  .user-avatar {
+    width: 44px; 
+    height: 44px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+  }
+  
+.user-name {
+  font-size: var( --font-size-h1);
+  font-weight: var(--font-style-h1);
+  color: var(--font-color-primary);
+}
+

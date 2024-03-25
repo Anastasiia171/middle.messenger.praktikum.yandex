@@ -1,0 +1,9 @@
+@import url('@/assets/variables.css');
+
+.chat-sidebar {
+    width: 362px;
+    background-color: var( --text-bgcolor);
+
+}
+
+

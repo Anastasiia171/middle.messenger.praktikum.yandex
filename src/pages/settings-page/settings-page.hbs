@@ -1,26 +1,25 @@
 {{#> Dialog }}
+<div class="settings-page-wrapper">
   <form class="settings-page">
     <div class="settings-header">   
       <img src="assets/images/avatar.png" alt="avatar.png">
     </div>
   
     <main class="settings-page-content">
-
-      {{> InputField title="First name" name="first_name" id="first_name" type="text"}}
-      {{> InputField title="Second name" name="second_name" type="text" id="second_name" }}
-      {{> InputField title="Display name" name="display_name" type="text" id="display_name" }}
-      {{> InputField title="Email" name="email" id="email" type="text"}}
-      {{> InputField title="Phone" name="phone" id="phone" type="text"}}
-      {{> InputField title="Login" name="login" id="login" type="text"}}
-      {{> Button text="Change password" className="button-onPage" id="changePasswordBtn"}}
+        {{{ input_first_name }}}
+        {{{ input_second_name }}}
+        {{{ input_display_name }}}
+        {{{ input_email }}}
+        {{{ input_phone }}}
+        {{{ input_login }}}
+        {{{ button }}} 
       <div class="settings-password">
-      {{> InputField title="Old password" name="oldPassword" id="oldPassword" type="password"}}
-       {{> InputField title="New password" name="newPassword" id="newPassword" type="password"}}
+        {{{ input_oldPassword }}}
+        {{{ input_newPassword }}}
        </div>
     </main>
     <div class="settings-page-footer">
-      {{> Button text="Save" page="chat" className="button-primary"}}
-    
+         {{{ button_second }}} 
     </div>
 
   </form>
@@ -29,8 +28,9 @@
     <a onclick="window.navigate('404-error')">404</a>
     <a onclick="window.navigate('login')">login-page</a>
     <a onclick="window.navigate('registration')">registration-page</a>
+    <a onclick="window.navigate('chat')">chat-page</a>
   </nav>
 
-
+</div>
 {{/ Dialog }}
 

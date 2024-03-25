@@ -1,6 +1,8 @@
-@import '@/assets/variables.css';
+@import url('@/assets/variables.css');
 
 .input-container {
+  display: flex;
+  flex-direction: column;
   position: relative;
 }
 
@@ -8,7 +10,7 @@
   width: 100%;
   border: 0;
   border-bottom: 1px solid #97D5C9;
-  padding: 10px 0px 4px 0px;
+  padding: 10px 0 4px;
   font-size: 14px;
   background-color: transparent;
 }
@@ -35,4 +37,16 @@
   border-color: #97D5C9;
   outline: none;
 }
+
+.incorrect {
+  color: red;
+  margin-top: 5px;
+  font-size: 12px;
+  visibility: hidden;
+}
+
+.show-error {
+  visibility: unset;
+}
+
 

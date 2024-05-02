@@ -50,7 +50,7 @@ class Route {
 }
 class Router {
   private static __instance: Router;
-  private routes: Route[] = [];
+  public routes: Route[] = [];
   private _currentRoute: Route | null = null;
   private history = window.history;
 

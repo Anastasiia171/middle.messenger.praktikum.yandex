@@ -3,7 +3,8 @@
     "browser": true,
     "es2020": true,
     "node": true,
-    "commonjs": true
+    "commonjs": true,
+    "mocha": true
   },
 
   "extends": [
@@ -11,7 +12,7 @@
     "plugin:prettier/recommended"
   ],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "prettier"],
+  "plugins": ["@typescript-eslint", "prettier", "mocha"],
 
   "parserOptions": {
     "sourceType": "module"
@@ -26,6 +27,7 @@
         "endOfLine": "auto",
         "printWidth": 80
       }
-    ]
+    ],
+    "mocha/no-exclusive-tests": "error"
   }
 }

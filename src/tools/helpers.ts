@@ -8,7 +8,7 @@ export const isPlainObject = (value: unknown): value is Indexed => {
   return (
     typeof value === "object" &&
     value !== null &&
-    value.constructor === Object &&
+    (value.constructor === Object || value.constructor === undefined) &&
     Object.prototype.toString.call(value) === "[object Object]"
   );
 };
